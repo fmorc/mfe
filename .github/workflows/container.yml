@@ -6,6 +6,7 @@ on:
       -main
     paths:
       - 'packages/container/**'
+    workflow_dispatch: # This line enables the "Run workflow" button
 
 defaults:
   run:
